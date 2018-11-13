@@ -23,6 +23,6 @@ Image shade(Image original, double factor) {
   return new Image(width, height, pixels);
 }
 
-String path = "path/cute_cat_and_dog_3.jpg";
+String path = "image-files/cute_cat_and_dog_3.jpg";
 Image catDog = readImage(path);
 Image shadedCatDog = shade(catDog, 0.5);
